@@ -1,0 +1,4 @@
+tasks:
+  - name: Install dependencies
+    before: |
+      sudo apt update -y && sudo apt install -y  libboost-dev libboost-thread-dev rapidjson-dev
